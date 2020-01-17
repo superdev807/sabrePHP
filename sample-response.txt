@@ -1,0 +1,249 @@
+{
+  "CreatePassengerNameRecordRS": {
+    "ApplicationResults": {
+      "status": "Complete",
+      "Success": [
+        {
+          "timeStamp": "2019-04-11T00:32:02.567-05:00"
+        }
+      ]
+    },
+    "ItineraryRef": {
+      "ID": "UMFEJG"
+    },
+    "AirBook": {
+      "OriginDestinationOption": {
+        "FlightSegment": [
+          {
+            "ArrivalDateTime": "04-15T08:06",
+            "DepartureDateTime": "04-15T06:45",
+            "eTicket": true,
+            "FlightNumber": "2660",
+            "NumberInParty": "001",
+            "ResBookDesigCode": "V",
+            "Status": "SS",
+            "DestinationLocation": {
+              "LocationCode": "BOS"
+            },
+            "MarketingAirline": {
+              "Code": "AA",
+              "FlightNumber": "2660"
+            },
+            "MarriageGrp": {
+              "Ind": "A"
+            },
+            "OriginLocation": {
+              "LocationCode": "PHL"
+            }
+          },
+          {
+            "ArrivalDateTime": "04-15T13:42",
+            "DepartureDateTime": "04-15T12:00",
+            "eTicket": true,
+            "FlightNumber": "2139",
+            "NumberInParty": "001",
+            "ResBookDesigCode": "G",
+            "Status": "SS",
+            "DestinationLocation": {
+              "LocationCode": "DCA"
+            },
+            "MarketingAirline": {
+              "Code": "AA",
+              "FlightNumber": "2139"
+            },
+            "MarriageGrp": {
+              "Ind": "A"
+            },
+            "OriginLocation": {
+              "LocationCode": "BOS"
+            }
+          }
+        ]
+      }
+    },
+    "TravelItineraryRead": {
+      "TravelItinerary": {
+        "CustomerInfo": {
+          "Address": {
+            "AddressLine": [
+              {
+                "type": "O",
+                "content": "ADAM TRAVEL"
+              },
+              {
+                "type": "O",
+                "content": "3150 SABRE DRIVE"
+              },
+              {
+                "type": "O",
+                "content": "SOUTHLAKE, TX US"
+              },
+              {
+                "type": "O",
+                "content": "76092"
+              }
+            ]
+          },
+          "ContactNumbers": {
+            "ContactNumber": [
+              {
+                "LocationCode": "BOS",
+                "Phone": "9179729380-H-1.1",
+                "RPH": "001"
+              }
+            ]
+          },
+          "PersonName": [
+            {
+              "WithInfant": "false",
+              "NameNumber": "01.01",
+              "PassengerType": "ADT",
+              "RPH": "1",
+              "GivenName": "AHMED",
+              "Surname": "ONSI"
+            }
+          ]
+        },
+        "ItineraryInfo": {
+          "ReservationItems": {
+            "Item": [
+              {
+                "RPH": "1",
+                "FlightSegment": [
+                  {
+                    "AirMilesFlown": "0281",
+                    "ArrivalDateTime": "04-15T08:06",
+                    "ConnectionInd": "O",
+                    "DayOfWeekInd": "1",
+                    "DepartureDateTime": "2019-04-15T06:45",
+                    "ElapsedTime": "01.21",
+                    "eTicket": true,
+                    "FlightNumber": "2660",
+                    "NumberInParty": "01",
+                    "ResBookDesigCode": "V",
+                    "SegmentNumber": "0001",
+                    "SmokingAllowed": false,
+                    "SpecialMeal": false,
+                    "Status": "HK",
+                    "StopQuantity": "00",
+                    "IsPast": false,
+                    "DestinationLocation": {
+                      "LocationCode": "BOS",
+                      "Terminal": "TERMINAL B",
+                      "TerminalCode": "B"
+                    },
+                    "Equipment": {
+                      "AirEquipType": "738"
+                    },
+                    "MarketingAirline": {
+                      "Code": "AA",
+                      "FlightNumber": "2660"
+                    },
+                    "MarriageGrp": {
+                      "Group": "001",
+                      "Ind": "O",
+                      "Sequence": "1"
+                    },
+                    "OriginLocation": {
+                      "LocationCode": "PHL",
+                      "Terminal": "TERMINAL A",
+                      "TerminalCode": "A"
+                    },
+                    "SupplierRef": {
+                      "ID": "DCAA*UMFEJG"
+                    },
+                    "UpdatedArrivalTime": "04-15T08:06",
+                    "UpdatedDepartureTime": "04-15T06:45"
+                  }
+                ]
+              },
+              {
+                "RPH": "2",
+                "FlightSegment": [
+                  {
+                    "AirMilesFlown": "0399",
+                    "ArrivalDateTime": "04-15T13:42",
+                    "ConnectionInd": "I",
+                    "DayOfWeekInd": "1",
+                    "DepartureDateTime": "2019-04-15T12:00",
+                    "ElapsedTime": "01.42",
+                    "eTicket": true,
+                    "FlightNumber": "2139",
+                    "NumberInParty": "01",
+                    "ResBookDesigCode": "G",
+                    "SegmentNumber": "0002",
+                    "SmokingAllowed": false,
+                    "SpecialMeal": false,
+                    "Status": "HK",
+                    "StopQuantity": "00",
+                    "IsPast": false,
+                    "DestinationLocation": {
+                      "LocationCode": "DCA",
+                      "Terminal": "TERMINAL C",
+                      "TerminalCode": "C"
+                    },
+                    "Equipment": {
+                      "AirEquipType": "E90"
+                    },
+                    "MarketingAirline": {
+                      "Code": "AA",
+                      "FlightNumber": "2139"
+                    },
+                    "MarriageGrp": {
+                      "Group": "001",
+                      "Ind": "I",
+                      "Sequence": "2"
+                    },
+                    "OriginLocation": {
+                      "LocationCode": "BOS",
+                      "Terminal": "TERMINAL B",
+                      "TerminalCode": "B"
+                    },
+                    "SupplierRef": {
+                      "ID": "DCAA*UMFEJG"
+                    },
+                    "UpdatedArrivalTime": "04-15T13:42",
+                    "UpdatedDepartureTime": "04-15T12:00"
+                  }
+                ]
+              }
+            ]
+          },
+          "Ticketing": [
+            {
+              "RPH": "01",
+              "TicketTimeLimit": "TAW/"
+            }
+          ]
+        },
+        "ItineraryRef": {
+          "AirExtras": false,
+          "ID": "UMFEJG",
+          "InhibitCode": "U",
+          "PartitionID": "AA",
+          "PrimeHostID": "1S",
+          "Source": {
+            "AAA_PseudoCityCode": "1QWH",
+            "CreateDateTime": "2019-04-11T00:32",
+            "CreationAgent": "AWV",
+            "HomePseudoCityCode": "1QWH",
+            "PseudoCityCode": "1QWH",
+            "ReceivedFrom": "ONLINE",
+            "LastUpdateDateTime": "2019-04-11T00:32",
+            "SequenceNumber": "1"
+          }
+        }
+      }
+    }
+  },
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.havail.sabre.com/v2.0.0/passenger/records?mode=create"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.havail.sabre.com/<version>/passenger/records?mode=<mode>"
+    }
+  ]
+}

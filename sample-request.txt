@@ -1,0 +1,92 @@
+{
+                "CreatePassengerNameRecordRQ": {
+                    "version": "2.1.0",
+                    "TravelItineraryAddInfo": {
+                        "AgencyInfo": {
+                            "Address": {
+                                "AddressLine": "ADAM TRAVEL",
+                                "CityName": "SOUTHLAKE",
+                                "CountryCode": "US",
+                                "PostalCode": "76092",
+                                "StateCountyProv": {
+                                    "StateCode": "TX"
+                                },
+                                "StreetNmbr": "3150 SABRE DRIVE"
+                            },
+                            "Ticketing": {
+                                "TicketType": "7TAW"
+                            }
+                        },
+                        "CustomerInfo": {
+                            "ContactNumbers": {
+                                "ContactNumber": [
+                                    {
+                                        "NameNumber": "1.1",
+                                        "Phone": "9179729380",
+                                        "PhoneUseType": "H"
+                                    }
+                                ]
+                            },
+                            "PersonName": [
+                                {
+                                    "NameNumber": "1.1",
+                                    "PassengerType": "ADT",
+                                    "Infant": false,
+                                    "GivenName": "Ahmed",
+                                    "Surname": "Onsi"
+                                }
+                            ]
+                               }
+                           },
+                           "AirBook": {
+                               "OriginDestinationInformation": {
+                                   "FlightSegment": [
+                                       {
+                                       "ArrivalDateTime": "2019-04-15T08:06:00",
+                                       "DepartureDateTime": "2019-04-15T06:45:00",
+                                       "FlightNumber": "2660",
+                                       "NumberInParty": "1",
+                                       "ResBookDesigCode": "V",
+                                       "Status": "NN",
+                                       "DestinationLocation": {
+                                           "LocationCode": "BOS"
+                                       },
+                                       "MarketingAirline": {
+                                           "Code": "AA",
+                                           "FlightNumber": "2660"
+                                       },
+                                       "MarriageGrp": "O",
+                                       "OriginLocation": {
+                                           "LocationCode": "PHL"
+                                       }
+                                      }, {
+                                       "ArrivalDateTime": "2019-04-15T13:42:00",
+                                       "DepartureDateTime": "2019-04-15T12:00:00",
+                                       "FlightNumber": "2139",
+                                       "NumberInParty": "1",
+                                       "ResBookDesigCode": "G",
+                                       "Status": "NN",
+                                       "DestinationLocation": {
+                                           "LocationCode": "DCA"
+                                       },
+                                       "MarketingAirline": {
+                                           "Code": "AA",
+                                           "FlightNumber": "2139"
+                                       },
+                                       "MarriageGrp": "O",
+                                       "OriginLocation": {
+                                           "LocationCode": "BOS"
+                                       }
+                                      }            ]
+                               }
+                           },
+                           "PostProcessing": {
+                               "RedisplayReservation": true,
+                               "EndTransaction": {
+                                   "Source": {
+                                       "ReceivedFrom": "ONLINE"
+                                   }
+                               }
+                           }
+                       }
+                   }
